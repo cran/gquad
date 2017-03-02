@@ -111,7 +111,7 @@ gquadOverlap_main <- function(b){
     b <- gsub(" ", "", b)
     # exit if unacceptable characters exist
     if(grepl("[^acgturyswkmbdhvnACGTURYSWKMBDHVN-]", b) == "TRUE"){
-      b1 <- data.frame("sequence_position" = "!", "sequence" = "Error: Non-nucleotide character(s) in input", "sequence_length" = "!")
+      b1 <- data.frame("sequence_position" = "!", "sequence" = "Error: Non-nucleotide character(s) in input", "sequence_length" = "!", "likeliness" = "!")
       return(b1)
     }else{
       # else continue
@@ -129,7 +129,7 @@ gquadOverlap_main <- function(b){
       b <- gsub(" ", "", i)
       # exit if unacceptable characters exist
       if(grepl("[^acgturyswkmbdhvnACGTURYSWKMBDHVN-]", i) == "TRUE"){
-        b1 <- data.frame("sequence_position" = "!", "sequence" = "Error: Non-nucleotide character(s) in input", "sequence_length" = "!")
+        b1 <- data.frame("sequence_position" = "!", "sequence" = "Error: Non-nucleotide character(s) in input", "sequence_length" = "!", "likeliness" = "!")
       }else{
         b1 <- gquad_overlap_base(i)
       }
