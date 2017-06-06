@@ -37,13 +37,12 @@ gquad(E1)
 ## Internet connectivity is needed for this to work.
 ## Not run: gquad(c("BH114913", "AY611035"), xformat = "GenBank")
 }
-\author{
-Hannah O. Ajoge
-}
 \references{
 paper under review
 }
 \seealso{
 gquadO
 }
-
+\author{
+Hannah O. Ajoge
+}

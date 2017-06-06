@@ -36,13 +36,12 @@ hdna(E1)
 ## Internet connectivity is needed for this to work.
 ## Not run: hdna(c("BH114913", "AY611035"), xformat = "GenBank")
 }
-\author{
-Hannah O. Ajoge
-}
 \references{
 paper under review
 }
 \seealso{
 hdnaO
 }
-
+\author{
+Hannah O. Ajoge
+}

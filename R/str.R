@@ -7,7 +7,7 @@ str_base <- function(a){
 
   # main strand
 
-  a4 <- "([ACGTURYSWKMBDHVN]{2,7}){6,100}"
+  a4 <- "([ACGTURYSWKMBDHVN]{2,7})\\1{5,99}"
   a5 <- gregexpr(a4, a, ignore.case = TRUE, perl = T)
   sequence_position <- a5[[1]][1:length(a5[[1]])]
   if(a5[[1]][1] == -1){
