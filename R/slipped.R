@@ -93,7 +93,7 @@ slipped_motif_main <- function(b){
 #' @importFrom ape read.GenBank
 #' @importFrom seqinr read.fasta
 #' @importFrom seqinr getSequence
-#' @references paper under review
+#' @references Paper on gquad and the web application (Non-B DNA Predictor) is under review, see draft in vignettes
 #' @examples
 #'  ## Predicting slipped motif(s) from raw DNA sequences
 #' E1 <- c("TCTTACTGTGACTGTGGAAT", "taggtgctgggaggtagagacaggatatcct")

@@ -1,0 +1,7 @@
+\documentclass{article}
+\usepackage{pdfpages}
+%\VignetteIndexEntry{Manuscript}
+
+\begin{document}
+\includepdf[pages=-, fitpaper=true]{Ajoge_etal_SoftwareCode_NatComm.pdf}
+\end{document}

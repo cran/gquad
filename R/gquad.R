@@ -175,7 +175,7 @@ gquad_main <- function(b){
 #' @importFrom ape read.GenBank
 #' @importFrom seqinr read.fasta
 #' @importFrom seqinr getSequence
-#' @references paper under review
+#' @references Paper on gquad and the web application (Non-B DNA Predictor) is under review, see draft in vignettes
 #' @seealso gquadO
 #' @examples
 #' ## Predicting G quadruplexes from raw nucleotide sequences

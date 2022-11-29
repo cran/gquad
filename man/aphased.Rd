@@ -37,7 +37,7 @@ aphased(E1)
 ## Not run: aphased(c("BH114913", "AY611035"), xformat = "GenBank")
 }
 \references{
-paper under review
+Paper on gquad and the web application (Non-B DNA Predictor) is under review, see draft in vignettes
 }
 \author{
 Hannah O. Ajoge
